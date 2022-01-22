@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+   background: linear-gradient(to bottom, rgb(37, 37, 48), rgb(207, 201, 201)); /* AGREGA DEGRADE DE COLORES DE ARRIBA HACIA ABAJO */
+}
+
+/* HEADER MOBILE */
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(143, 197, 179);
+    background-image: url("/img/rick.jpg");
+    background-repeat: no-repeat;
+  /*  background-attachment: fixed; */
+    background-size: cover;
+    background-size: 100%;
+    height: 450px;
+}
+
+.headerPicture {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 15px;
+    margin: 10px 0px;
+    list-style: none;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER MOBILE END */
+
+/* MAIN MOBILE */
+
+main {
+    width: 100%;
+}
+
+#section{
+
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%;
+    border-radius: 5px;
+    border: black 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(255, 254, 254);
+    
+}
+
+.card:hover {
+    box-shadow: 5px 10px rgb(54, 51, 51);
+}
+
+.card figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.card figure img {
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 20px;
+
+}
+
+.characterInfo {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+}
+
+.characterInfo li {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    margin: 15px;
+    width: 30%;
+    background-color: rgb(207, 69, 69);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 11px;
+}
+
+button:hover {
+    background-color: rgb(207, 93, 93);;
+}
+
+/* MAIN MOBILE END */
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(116, 153, 253);
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+
+/* FOOTER END */
+
+/***************** TABLET VIEW ***************/
+
+@media (min-width: 640px) {
+    
+  
+
+
+/* HEADER TABLET */ 
+h1{
+    font-size: 22px;
+    
+}
+
+nav ul{
+    font-size: 20px;
+}
+
+nav ul li :hover{
+    
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px;
+}
+/* HEADRER  END */
+   
+
+/* MAIN */
+#section {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 40%;
+    
+}
+
+.characterInfo li {
+    font-size: 17px;
+}
+
+
+.button button {
+
+    font-size: 16px;
+}
+
+/* MAIN END*/
+
+
+}
+
+
+/************ DESKTOP VIEW *********/
+
+
+@media (min-width: 990px) {
+
+    .card{
+
+        width: 25%;
+    }
+
+}
+
+
+
